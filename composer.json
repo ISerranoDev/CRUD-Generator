@@ -12,5 +12,23 @@
     ],
     "autoload": {
         "psr-4": { "ISerranoDev\\CrudGenerator\\": "src/" }
+    },
+    "require":  {
+        "php": "^8.2",
+        "doctrine/doctrine-bundle": "^2.10",
+        "doctrine/doctrine-migrations-bundle": "^3.2",
+        "doctrine/orm": "^2.16",
+        "knplabs/knp-paginator-bundle": "^6.2",
+        "lexik/jwt-authentication-bundle": "^2.20",
+        "symfony/console": "6.4.*",
+        "symfony/framework-bundle": "6.4.*",
+        "symfony/runtime": "6.4.*",
+        "symfony/security-bundle": "6.4.*",
+        "symfony/translation": "6.4.*",
+        "symfony/twig-bundle": "6.4.*",
+        "symfony/validator": "6.4.*",
+        "symfony/yaml": "6.4.*",
+        "twig/extra-bundle": "^2.12|^3.0",
+        "twig/twig": "^2.12|^3.0"
     }
 }
