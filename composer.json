@@ -1,0 +1,13 @@
+{
+    "name": "ISerranoDev/Crud-Generator",
+    "type": "symfony-bundle",
+    "description": "Generate a complete CRUD by an existing entity",
+    "keywords": ["php", "symfony", "reusable bundle", "crud"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ismael Serrano López",
+            "email": "iserrano.developer@gmail.com"
+        }
+    ]
+}
