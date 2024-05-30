@@ -1,5 +1,5 @@
 {
-    "name": "ISerranoDev/Crud-Generator",
+    "name": "iserranodev/crud-generator",
     "type": "symfony-bundle",
     "description": "Generate a complete CRUD by an existing entity",
     "keywords": ["php", "symfony", "reusable bundle", "crud"],
@@ -9,5 +9,8 @@
             "name": "Ismael Serrano López",
             "email": "iserrano.developer@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": { "ISerranoDev\\CrudGenerator\\": "src/" }
+    }
 }
